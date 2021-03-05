@@ -1,0 +1,10 @@
+C:\Users\alejandro.amador\source\repos\BeachHouseDB\BeachHouseDB\bin\Debug\BeachHouseDB.dacpac
+C:\Users\alejandro.amador\source\repos\BeachHouseDB\BeachHouseDB\bin\Debug\BeachHouseDB.dll
+C:\Users\alejandro.amador\source\repos\BeachHouseDB\BeachHouseDB\bin\Debug\BeachHouseDB.pdb
+C:\Users\alejandro.amador\source\repos\BeachHouseDB\BeachHouseDB\obj\Debug\BeachHouseDB.sqlprojAssemblyReference.cache
+C:\Users\alejandro.amador\source\repos\BeachHouseDB\BeachHouseDB\obj\Debug\Model.xml
+C:\Users\alejandro.amador\source\repos\BeachHouseDB\BeachHouseDB\obj\Debug\refactor.xml
+C:\Users\alejandro.amador\source\repos\BeachHouseDB\BeachHouseDB\obj\Debug\postdeploy.sql
+C:\Users\alejandro.amador\source\repos\BeachHouseDB\BeachHouseDB\obj\Debug\predeploy.sql
+C:\Users\alejandro.amador\source\repos\BeachHouseDB\BeachHouseDB\obj\Debug\BeachHouseDB.dll
+C:\Users\alejandro.amador\source\repos\BeachHouseDB\BeachHouseDB\obj\Debug\BeachHouseDB.pdb
