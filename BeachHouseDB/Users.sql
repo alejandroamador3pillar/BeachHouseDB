@@ -1,6 +1,6 @@
-﻿CREATE TABLE [dbo].[User]
+﻿CREATE TABLE [dbo].[Users]
 (
-	[id] INT NOT NULL PRIMARY KEY, 
+	[id] BIGINT NOT NULL PRIMARY KEY, 
     [role] INT NOT NULL DEFAULT 0, 
     [active] BIT NOT NULL DEFAULT 1
 )

@@ -12,9 +12,9 @@ C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\Bea
 C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\bin\Debug\BeachHouseDB.dll
 C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\bin\Debug\BeachHouseDB.pdb
 C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\obj\Debug\BeachHouseDB.sqlprojAssemblyReference.cache
+C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\obj\Debug\BeachHouseDB.dll
+C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\obj\Debug\BeachHouseDB.pdb
 C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\obj\Debug\Model.xml
 C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\obj\Debug\refactor.xml
 C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\obj\Debug\postdeploy.sql
 C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\obj\Debug\predeploy.sql
-C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\obj\Debug\BeachHouseDB.dll
-C:\Users\alejandro.amador\Documents\Dev\Beach House App\Initial\BeachHouseDB\BeachHouseDB\obj\Debug\BeachHouseDB.pdb
