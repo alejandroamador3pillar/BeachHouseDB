@@ -1,0 +1,28 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       [dbo].[Users]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Debe agregarse la columna [dbo].[Params].[last_modified] de la tabla [dbo].[Params], pero esta columna no tiene un valor
+         predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta
+         incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la
+         generación de valores predeterminados inteligentes como opción de implementación.
+       Debe agregarse la columna [dbo].[Params].[updated_by] de la tabla [dbo].[Params], pero esta columna no tiene un valor
+         predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta
+         incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la
+         generación de valores predeterminados inteligentes como opción de implementación.
+
+** Acciones del usuario
+     Modificar
+       [dbo].[Params] (Tabla)
+     Nueva compilación de tablas
+       [dbo].[Users] (Tabla)
+
+** Acciones de compatibilidad
+
+Debe agregarse la columna [dbo].[Params].[last_modified] de la tabla [dbo].[Params], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+Debe agregarse la columna [dbo].[Params].[updated_by] de la tabla [dbo].[Params], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+

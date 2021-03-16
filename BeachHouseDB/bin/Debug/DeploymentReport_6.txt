@@ -1,0 +1,20 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       [dbo].[Params]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       El tipo de la columna updated_by en la tabla [dbo].[Params] es  DATETIME NOT NULL, pero se va a cambiar a  BIGINT NOT
+         NULL. Si la columna contiene datos no compatibles con el tipo  BIGINT NOT NULL, podrían producirse pérdidas de datos y
+         errores en la implementación.
+
+** Acciones del usuario
+     Nueva compilación de tablas
+       [dbo].[Params] (Tabla)
+
+** Acciones de compatibilidad
+
+El tipo de la columna updated_by en la tabla [dbo].[Params] es  DATETIME NOT NULL, pero se va a cambiar a  BIGINT NOT NULL. Si la columna contiene datos no compatibles con el tipo  BIGINT NOT NULL, podrían producirse pérdidas de datos y errores en la implementación.
+

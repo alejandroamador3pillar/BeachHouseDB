@@ -1,0 +1,18 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[Param] (Tabla)
+       [dbo].[User] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[User] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[User] (Restricción DEFAULT)
+
+** Acciones de compatibilidad

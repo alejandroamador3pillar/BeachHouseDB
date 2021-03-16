@@ -1,0 +1,94 @@
+﻿/*
+Script de implementación para BeachHouseDB
+
+Una herramienta generó este código.
+Los cambios realizados en este archivo podrían generar un comportamiento incorrecto y se perderán si
+se vuelve a generar el código.
+*/
+
+GO
+SET ANSI_NULLS, ANSI_PADDING, ANSI_WARNINGS, ARITHABORT, CONCAT_NULL_YIELDS_NULL, QUOTED_IDENTIFIER ON;
+
+SET NUMERIC_ROUNDABORT OFF;
+
+
+GO
+:setvar DatabaseName "BeachHouseDB"
+:setvar DefaultFilePrefix "BeachHouseDB"
+:setvar DefaultDataPath "C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\"
+:setvar DefaultLogPath "C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\"
+
+GO
+:on error exit
+GO
+/*
+Detectar el modo SQLCMD y deshabilitar la ejecución del script si no se admite el modo SQLCMD.
+Para volver a habilitar el script después de habilitar el modo SQLCMD, ejecute lo siguiente:
+SET NOEXEC OFF; 
+*/
+:setvar __IsSqlCmdEnabled "True"
+GO
+IF N'$(__IsSqlCmdEnabled)' NOT LIKE N'True'
+    BEGIN
+        PRINT N'El modo SQLCMD debe estar habilitado para ejecutar correctamente este script.';
+        SET NOEXEC ON;
+    END
+
+
+GO
+USE [$(DatabaseName)];
+
+
+GO
+PRINT N'Creando [dbo].[Params]...';
+
+
+GO
+CREATE TABLE [dbo].[Params] (
+    [Id]            INT          NOT NULL,
+    [description]   VARCHAR (50) NOT NULL,
+    [value]         VARCHAR (50) NOT NULL,
+    [start_date]    DATETIME     NULL,
+    [end_date]      DATETIME     NULL,
+    [updated_by]    DATETIME     NOT NULL,
+    [last_modified] DATETIME     NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+GO
+PRINT N'Creando [dbo].[Users]...';
+
+
+GO
+CREATE TABLE [dbo].[Users] (
+    [id]     BIGINT NOT NULL,
+    [role]   INT    NOT NULL,
+    [active] BIT    NOT NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
+
+
+GO
+PRINT N'Creando restricción sin nombre en [dbo].[Users]...';
+
+
+GO
+ALTER TABLE [dbo].[Users]
+    ADD DEFAULT 0 FOR [role];
+
+
+GO
+PRINT N'Creando restricción sin nombre en [dbo].[Users]...';
+
+
+GO
+ALTER TABLE [dbo].[Users]
+    ADD DEFAULT 1 FOR [active];
+
+
+GO
+PRINT N'Actualización completada.';
+
+
+GO
