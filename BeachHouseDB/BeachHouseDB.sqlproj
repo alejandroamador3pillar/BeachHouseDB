@@ -60,6 +60,9 @@
   <ItemGroup>
     <Build Include="Users.sql" />
     <Build Include="Params.sql" />
+    <Build Include="Reservations.sql" />
+    <Build Include="Locations.sql" />
+    <Build Include="ReservationDetails.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BeachHouseDB.refactorlog" />
