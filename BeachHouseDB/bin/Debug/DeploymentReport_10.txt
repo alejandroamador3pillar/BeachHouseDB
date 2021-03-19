@@ -1,0 +1,29 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       [dbo].[Reservations]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Debe agregarse la columna [dbo].[Reservations].[active] de la tabla [dbo].[Reservations], pero esta columna no tiene un
+         valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar
+         esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la
+         generación de valores predeterminados inteligentes como opción de implementación.
+
+** Acciones del usuario
+     Nueva compilación de tablas
+       [dbo].[Reservations] (Tabla)
+
+** Acciones de compatibilidad
+     Quitar
+       [dbo].[FK_ReservationDetails_ToMaster] (Clave externa)
+       [dbo].[FK_Users_ToReservation] (Clave externa)
+       [dbo].[FK_Location_ToReservation] (Clave externa)
+     Crear
+       [dbo].[FK_ReservationDetails_ToMaster] (Clave externa)
+       [dbo].[FK_Users_ToReservation] (Clave externa)
+       [dbo].[FK_Location_ToReservation] (Clave externa)
+
+Debe agregarse la columna [dbo].[Reservations].[active] de la tabla [dbo].[Reservations], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+
