@@ -5,8 +5,8 @@
     [value] VARCHAR(50) NOT NULL, 
     [start_date] DATETIME NULL, 
     [end_date] DATETIME NULL, 
-    [updated_by] BIGINT NOT NULL, 
+    [updated_by] VARCHAR(50) NOT NULL, 
     [last_modified] DATETIME NOT NULL, 
     PRIMARY KEY ([Id]), 
-    CONSTRAINT [FK_Params_ToUser] FOREIGN KEY (updated_by) REFERENCES Users(Id)
+    CONSTRAINT [FK_Params_ToUser] FOREIGN KEY (updated_by) REFERENCES Users(id)
 )
