@@ -2,7 +2,7 @@
 (
 	[Id] INT NOT NULL , 
     [description] VARCHAR(50) NOT NULL, 
-    [value] VARCHAR(50) NOT NULL, 
+    [value] VARCHAR(MAX) NOT NULL, 
     [start_date] DATETIME NULL, 
     [end_date] DATETIME NULL, 
     [updated_by] VARCHAR(50) NOT NULL, 
