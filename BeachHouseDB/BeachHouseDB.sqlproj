@@ -63,8 +63,12 @@
     <Build Include="Reservations.sql" />
     <Build Include="Locations.sql" />
     <Build Include="ReservationDetails.sql" />
+    <Build Include="Seasons.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BeachHouseDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BeachHouseDB.publish.xml" />
   </ItemGroup>
 </Project>

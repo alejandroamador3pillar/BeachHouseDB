@@ -14,4 +14,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="updated_by" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="c304784f-b8e5-4a95-896a-2c32fa68e7c0" ChangeDateTime="05/06/2021 16:14:29">
+    <Property Name="ElementName" Value="[dbo].[Table1].[description]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="descriptionSeason" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3c292b6a-d541-4eea-8a45-cb86e333a9d1" ChangeDateTime="05/06/2021 16:23:54">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="seasonsId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9f76c273-a392-45d4-8c41-55d15bc66dea" ChangeDateTime="05/06/2021 16:24:17">
+    <Property Name="ElementName" Value="[dbo].[Table1].[seasonsId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
 </Operations>
